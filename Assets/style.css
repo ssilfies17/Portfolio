@@ -1,17 +1,17 @@
 .header {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    padding:25px;
+    padding: 25px;
 }
 
 .header li {
     display: inline;
-    margin:5px 10px 0px 0px;
-    font-size:20px;
+    margin: 5px 10px 0px 0px;
+    font-size: 20px;
 }
 
 header {
-    background-color:yellow;
+    background-color: yellow;
 }
 
 h1 {
@@ -19,3 +19,52 @@ h1 {
     font-size: 36px;
 }
 
+.subheader {
+    display: block;
+    background-color: aqua;
+    font-size: 26px;
+    text-align: right;
+    padding: 75px;
+}
+
+#subheadertext {
+    position:absolute;
+    left: 1125px;
+    top: 190px;
+}
+
+.body {
+    background-color: tan;
+    padding: 70px 30px 30px 30px;
+}
+
+.aboutme {
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+#aboutmeh2 {
+    padding: 20px 50px 50px 20px;
+    font-size:36px;
+    border-right: solid black 5px;
+}
+
+#aboutmetext {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 15px;
+    display:flex;
+    flex:wrap;
+}
+
+.work {
+    display:flex;
+    margin-top: 40px;
+}
+
+#workh2 {
+    font-size: 36px;
+    padding: 20px 65px 50px 20px;
+    border-right: solid black 5px;
+} 
