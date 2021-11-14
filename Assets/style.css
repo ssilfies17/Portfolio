@@ -59,12 +59,45 @@ h1 {
 }
 
 .work {
-    display:flex;
     margin-top: 40px;
+    display: flex;
 }
 
 #workh2 {
     font-size: 36px;
     padding: 20px 65px 50px 20px;
     border-right: solid black 5px;
+    position: relative;
+    left: 0px;
 } 
+
+.worktiles {
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.worktile1 {
+    display: flex 1 0 100%;
+}
+
+.contactme {
+    display: flex;
+}
+
+.contactme h2 {
+    border-right: 5px solid black;
+    font-size: 36px;
+    position: relative;
+    left: 0px;
+}
+
+.contactlist {
+    justify-content: space-evenly;
+}
+
+.contactme li {
+    display:inline;
+    padding: 30px;
+    font-size: 20px;
+}
