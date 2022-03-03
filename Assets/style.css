@@ -1,103 +1,99 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
+body {
+   background-color: #BCD8B7 ; 
 }
 
-.header li {
-    display: inline;
-    margin: 5px 10px 0px 0px;
-    font-size: 20px;
+.navbar {
+    padding: 1rem;
+    background-color: #5E8396;
 }
 
-header {
-    background-color: yellow;
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+    font-size: 22px;
 }
 
-h1 {
-    background-color: tomato;
-    font-size: 36px;
+.navbar-brand {
+    font-size: 50px;
 }
 
-.subheader {
-    display: block;
-    background-color: aqua;
-    font-size: 26px;
+.navbar-nav {
     text-align: right;
-    padding: 75px;
 }
 
-#subheadertext {
-    position:absolute;
-    left: 1125px;
-    top: 190px;
+.headers {
+    padding: 2rem;
+    background-color: #E0D2C3;
+    padding-bottom: 1rem;
 }
 
-.body {
-    background-color: tan;
-    padding: 70px 30px 30px 30px;
+.mainHeader {
+    text-align: left;
+    font-style: bold;
+    font-size: 20px;
+    /* padding: .5rem; */
 }
 
-.aboutme {
-    display:flex;
-    justify-content: space-evenly;
-    
+.subHeader {
+    text-align: center;
+    font-size: 26px;
+    padding: .25rem;
+    padding-top: 0;
 }
 
-#aboutmeh2 {
-    padding: 20px 50px 50px 20px;
-    font-size:36px;
-    border-right: solid black 5px;
-}
-
-#aboutmetext {
-    font-size: 18px;
-    line-height: 1.5;
-    padding: 15px;
-    display:flex;
-    flex:wrap;
+.subHeader2 {
+    text-align: center;
+    padding: .25rem;
 }
 
 .work {
-    margin-top: 40px;
+    text-align: left;
+    padding: 2rem;
+    font-size: 30px;
+    background-color: #6BA292;
+}
+
+.workCards {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #6BA292;
 }
 
-#workh2 {
-    font-size: 36px;
-    padding: 20px 65px 50px 20px;
-    border-right: solid black 5px;
-    position: relative;
-    left: 0px;
-} 
 
-.worktiles {
-    flex-direction: column;
-    justify-content: space-evenly;
+.card {
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 400px;
+}
+
+.footer {
+    margin-top: 3.75rem;
+    margin-bottom: .5rem;
+}
+
+
+@media only screen and (min-width: 1025px) {
+    .row1 {
+        flex-direction: column;
+    }
+
+    .row2 {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .work {
+        margin-left: 20rem;
+    }
 
 }
 
-.worktile1 {
-    display: flex 1 0 100%;
-}
+@media only screen and (min-width: 1200px) {
+    #header1 {
+        position: relative;
+        left: 28rem;
+    }
 
-.contactme {
-    display: flex;
-}
-
-.contactme h2 {
-    border-right: 5px solid black;
-    font-size: 36px;
-    position: relative;
-    left: 0px;
-}
-
-.contactlist {
-    justify-content: space-evenly;
-}
-
-.contactme li {
-    display:inline;
-    padding: 30px;
-    font-size: 20px;
 }

@@ -5,75 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sawyer's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/reset.css">
     <link rel="stylesheet" href="./Assets/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="header">
-            <h1>Sawyer's Portfolio</h1>
-            <ul id="hyperlinks">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact Me</a></li>
-            </ul>
-        </div>
-    </header>
 
-    <div class="subheader">
-        <h2 id="subheadertext">Plenty more to come...</h2>
-    </div>
-    
-    <div class="body">
-    
-        <div class="aboutme">
-            <h2 id="aboutmeh2">About Me</h2>
-            <p id="aboutmetext">Hello! My name is Sawyer Silfies. I am 25 years old and I have been coding since September 2021. I am also currently enrolled in University of Washington's coding bootcamp. When I'm not working or studying I usually find mysely fixing up cars or walking in the woods with my wonderful dog. Thank you for checking out my Portfolio! I hope it provides a good insight to my ability and potential. </p>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div class="headers">
+        <div class="mainHeader">
+            <h1 id="header1">Hello I am,</h1>
         </div>
 
-        <div class="work">
-            <h2 id="workh2">Work</h2>
+        <div class="subHeader">
+            <h2 id="subHeader1">Sawyer Silfies</h2>
+        </div>
+
+        <br>
+
+        <div class="subHeader2">
+            <h3 id="subHeader2">I'm a full stack web developer based out of the Pacific Northwest. Have a look at some of the projects I've worked on!</h3>
+
+            <br>
             
-            <div class="worktiles">
-                <section class="worktile1">
-                    <a href="#"><img src=https://via.placeholder.com/200/></a>
-                </section>
+            <h3 class="caption"> Build it up, break it down, build it back better. </h3>
+        </div>
+    </div>
 
-                <section class="worktile2">
-                    <a href="#"><img src=https://via.placeholder.com/200/></a>
-                </section>
+    <div class="work">
+        <h1>Work</h1>
+        
+    </div>
 
-                <section class="worktile3">
-                    <a href="#"><img src=https://via.placeholder.com/200/></a>
-                </section>
+    <div class="workCards">
+        <div class="row1">
+            <div class="card" style="width: 22rem; height: 12rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        
 
-                <section class="worktile4>
-                    <a href="#"><img src=https://via.placeholder.com/200/></a>
-                </section>
-
-                <section class="worktile5>
-                    <a href="#"><img src=https://via.placeholder.com/200/></a>
-                </section>
-
-                <section class="worktile6>
-                    <a href="#"><img src=https://via.placeholder.com/200/></a>
-                </section>
+            <div class="card" style="width: 22rem; height: 12rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="card" style="width: 22rem; height: 12rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
             </div>
 
-        </div>
-
-        <div class="contactme">
-            <h2>Contact Me</h2>
-            <ul class="contactlist">
-                <li>360-909-4979</li>
-                <li>ssilfies17@gmail.com</li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">Resume</a></li>
-            </ul>
-        </div>
-
+            <div class="card" style="width: 22rem; height: 12rem; margin-bottom: 5rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+            </div>
+        </div>    
     </div>
+
+    <div class="footer">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">ssilfies17@gmail.com</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Github</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Linkdn</a>
+            </li>
+          </ul>
+    </div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
