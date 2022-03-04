@@ -1,99 +1,143 @@
 body {
-   background-color: #BCD8B7 ; 
-}
-
-.navbar {
-    padding: 1rem;
-    background-color: #5E8396;
-}
-
-#navbarNavAltMarkup {
-    justify-content: flex-end;
-    font-size: 22px;
-}
-
-.navbar-brand {
-    font-size: 50px;
-}
-
-.navbar-nav {
-    text-align: right;
-}
-
-.headers {
-    padding: 2rem;
-    background-color: #E0D2C3;
-    padding-bottom: 1rem;
-}
-
-.mainHeader {
-    text-align: left;
-    font-style: bold;
-    font-size: 20px;
-    /* padding: .5rem; */
-}
-
-.subHeader {
-    text-align: center;
-    font-size: 26px;
-    padding: .25rem;
-    padding-top: 0;
-}
-
-.subHeader2 {
-    text-align: center;
-    padding: .25rem;
-}
-
-.work {
-    text-align: left;
-    padding: 2rem;
-    font-size: 30px;
-    background-color: #6BA292;
-}
-
-.workCards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #6BA292;
-}
-
-
-.card {
-    margin: 1rem;
-    padding: 1rem;
-    max-width: 400px;
-}
-
-.footer {
-    margin-top: 3.75rem;
-    margin-bottom: .5rem;
-}
-
-
-@media only screen and (min-width: 1025px) {
-    .row1 {
-        flex-direction: column;
-    }
-
-    .row2 {
-        flex-direction: column;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .work {
-        margin-left: 20rem;
-    }
-
-}
-
-@media only screen and (min-width: 1200px) {
-    #header1 {
-        position: relative;
-        left: 28rem;
-    }
-
-}
+    background-color: #BCD8B7 ; 
+ }
+ 
+ .navbar {
+     padding: 1rem;
+ }
+ 
+ #navbarNavAltMarkup {
+     justify-content: flex-end;
+     font-size: 22px;
+ }
+ 
+ .navbar-brand {
+     font-size: 50px;
+ }
+ 
+ .navbar-nav {
+     text-align: right;
+ }
+ 
+ .headers {
+     padding: 2rem;
+     color: whitesmoke;
+     padding-bottom: 1rem;
+ }
+ 
+ .mainHeader {
+     text-align: left;
+     font-style: bold;
+     font-size: 20px;
+     /* padding: .5rem; */
+ }
+ 
+ .subHeader {
+     text-align: center;
+     font-size: 26px;
+     padding: .25rem;
+     padding-top: 0;
+ }
+ 
+ .subHeader2 {
+     text-align: center;
+     padding: .25rem;
+ }
+ 
+ .work {
+     text-align: left;
+     padding: 2rem;
+     font-size: 30px;
+ }
+ 
+ .workCards {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ 
+ .workHeader {
+     display: block;
+     max-width: 10rem;
+     border-bottom: dashed 1.5px black;
+     padding: 1rem;
+     padding-bottom: .5rem;
+     text-align: center;
+ }
+ 
+ .card {
+     margin: 1rem;
+     padding: 1rem;
+     max-width: 400px;
+ }
+ 
+ .footer {
+     margin-top: 5rem;
+     margin-bottom: .5rem;
+ }
+ 
+ 
+ @media only screen and (min-width: 1025px) {
+     .row1 {
+         flex-direction: column;
+         margin-right: 5rem;
+     }
+ 
+     .row2 {
+         flex-direction: column;
+         margin-right: 5rem;
+     }
+ 
+     #card1 {
+         margin-bottom: 3rem;
+     }
+     
+     #card2 {
+         margin-top: 4rem;
+     }
+ 
+     #card3 {
+         margin-bottom: 3rem;
+     }
+     
+     #card4 {
+         margin-top: 4rem;
+     }
+ }
+ 
+ @media only screen and (min-width: 1200px) {
+     .work {
+         margin-left: 10rem;
+     }
+ 
+ }
+ 
+ @media only screen and (min-width: 1200px) {
+     #header1 {
+         position: relative;
+         left: 28rem;
+     }
+ 
+ }
+ 
+ @media only screen and (max-width: 768px) {
+     .work {
+         margin-left: 1rem;
+         padding-left: 0rem;
+     }
+ 
+     .workHeader {
+         text-align: left;
+         max-width: 7rem;
+     }
+ 
+ }
+ 
+ @media only screen and (max-width: 768px) {
+     #header1 {
+         position: relative;
+         left: 0rem;
+     }
+ 
+ }
