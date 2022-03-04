@@ -1,9 +1,11 @@
 body {
-    background-color: #BCD8B7 ; 
+    background-color: #eef8fA ; 
+    font-family: 'Smooch Sans', sans-serif;
  }
  
  .navbar {
      padding: 1rem;
+     background-color: #a2d6e0;
  }
  
  #navbarNavAltMarkup {
@@ -14,6 +16,11 @@ body {
  .navbar-brand {
      font-size: 50px;
  }
+
+ #logo {
+     max-width: 12rem;
+     max-width: 12rem;
+ }
  
  .navbar-nav {
      text-align: right;
@@ -21,13 +28,13 @@ body {
  
  .headers {
      padding: 2rem;
-     color: whitesmoke;
+     color: black;
      padding-bottom: 1rem;
  }
  
  .mainHeader {
      text-align: left;
-     font-style: bold;
+     font-weight: 700;
      font-size: 20px;
      /* padding: .5rem; */
  }
@@ -131,6 +138,14 @@ body {
          text-align: left;
          max-width: 7rem;
      }
+
+     #card2 {
+         margin-bottom: .5rem;
+     }
+
+     #card3 {
+        margin-top: .5rem;
+    }
  
  }
  
