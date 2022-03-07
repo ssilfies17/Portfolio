@@ -16,6 +16,7 @@ body {
  #logo {
      max-width: 12rem;
      max-width: 12rem;
+     border-radius: .75rem;
  }
  
  .navbar-nav {
@@ -30,6 +31,7 @@ body {
      background-color: #c8e7ed;
      border: 1.5px dashed black;
      margin: 2rem;
+     border-radius: .75rem;
  }
  
  .mainHeader {
@@ -109,6 +111,22 @@ body {
      padding: 1rem;
      width: 30rem;
      height: 15rem;
+     background-color: #2a2a2a;
+     color: #eef8fa;
+     border-radius: .75rem;
+ }
+
+ .card-title {
+     font-size: 28px;
+     text-align: center;
+ }
+
+ .card-body {
+     color: #c2c2c2;
+     font-size: 20px;
+     line-height: 1.25;
+     text-align: center;
+     margin-top: 3rem;
  }
 
  #card4 {
@@ -205,5 +223,9 @@ body {
     .card {
         width: 24rem;
         height: 12rem;
+    }
+
+    .card-body {
+        margin-top: 1rem;
     }
  }
