@@ -86,7 +86,7 @@ body {
  .work {
      text-align: left;
      padding: 2rem;
-     font-size: 42px;
+     font-size: 46px;
  }
  
  .workCards {
@@ -114,6 +114,7 @@ body {
      background-color: #2a2a2a;
      color: #eef8fa;
      border-radius: .75rem;
+     box-shadow: 0px 2px 6px 1px #2a2a2a;
  }
 
  .card-title {
